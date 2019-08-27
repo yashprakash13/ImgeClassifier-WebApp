@@ -8,7 +8,12 @@ To get started, do the following:
 
 That's it!! Play with the image classifier app from your browser window!
 
-#### Made using the following technologies:
+### App in action:
+![Screenshot1](https://raw.githubusercontent.com/yashprakash13/ImgeClassifier-WebApp/master/Results/img_1%20(1).png)
+
+![Screenshot2](https://raw.githubusercontent.com/yashprakash13/ImgeClassifier-WebApp/master/Results/img_2%20(1).png)
+
+#### Made using:
 * Tensorflow.js pretrained model - MobileNet
 * HTML 5
 * Javascript
