@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>MobileNet Image Classifier</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@0.12.0"> </script>
+    <script src="index.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+    <div class="custom-padding">
+        <nav>
+            <div class="navTitle">Image Classifier App</div>
+
+        </nav>
+    </div>
+
+    <div class="loadingDiv">Loading model, Please wait...</div>
+
+    <div class="upload-btn-wrapper">
+        <button class="btn">Select an image</button>
+        <input type="file" id="inputImage" onchange="readURL(this)" disabled>
+    </div>
+
+    <div class="imageDiv">
+        <img src="" id="imageSrc" />
+    </div>
+
+    <div class="predictionDiv">
+        <h2 class="predTitle">Top 5 Predictions:</h2>
+        <ul class="predictionList"></ul>
+    </div>
+
+</body>
+
+</html>
